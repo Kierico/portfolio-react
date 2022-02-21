@@ -7,7 +7,7 @@ const Header = styled.header`
     justify-content: space-between;
     width: 70vw;
     margin: 0 auto;
-    margin-bottom: 7.25rem;
+    margin-bottom: 2rem;
 `;
 
 export default Header;

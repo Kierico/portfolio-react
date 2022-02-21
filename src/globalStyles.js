@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
         --first-grey: #828282;
         --second-grey: #333333;
         --third-grey: #171717;
+        --fourth-grey: #212121;
     }
 `;
 

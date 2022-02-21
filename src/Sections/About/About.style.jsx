@@ -1,9 +1,12 @@
 import styled from "styled-components";
 import Astronaut from "../../assets/images/astronaut.png";
 
-export const AboutSection = styled.section``;
+export const AboutSection = styled.section`
+    width: 70vw;
+    margin: 0 auto;
+`;
 
-const AboutTitle = styled.h1`
+const HomeTitle = styled.h1`
     font-size: 2.25rem;
     font-weight: 700;
     color: var(--light-color);
@@ -14,7 +17,7 @@ export const TitleDiv = styled.div`
     width: 15rem;
 `;
 
-export const AboutText = styled.p`
+export const HomeText = styled.p`
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--first-grey);
@@ -58,11 +61,11 @@ export const AboutImage = styled.img.attrs({ src: Astronaut })`
 `;
 
 export const AboutContainer = styled.div`
-    width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 2rem;
 `;
 
-export default AboutTitle;
+export default HomeTitle;
