@@ -21,13 +21,14 @@ import Mail from "../../assets/icons/mail.svg";
 import Linkedin from "../../assets/icons/linkedin.svg";
 import Github from "../../assets/icons/github.svg";
 import { SocialCard, ContainerSocial } from "./About.social.syle";
+import SectionTitle from "../../Components/SectionTitle";
 
 const About = () => {
     return (
         <>
             <AboutSection>
                 <TitleContainer />
-                <TextContainer/>
+                <TextContainer />
             </AboutSection>
         </>
     );
@@ -59,7 +60,7 @@ export const TextContainer = () => {
     return (
         <>
             <ContainerAboutText>
-                <AboutTitle>Sobre mim</AboutTitle>
+                <SectionTitle>Sobre mim</SectionTitle>
                 <AboutTextDiv>
                     <AboutText>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -73,10 +74,28 @@ export const TextContainer = () => {
                     </AboutText>
                 </AboutTextDiv>
                 <ContainerSocial>
-                    <SocialCard title="Linkedin" subtitle="/sauloveigr" src={Linkedin} />
-                    <SocialCard title="Github" subtitle="/sauloveigr" src={Github} />
-                    <SocialCard title="Contato" subtitle="(85) 9 9656-7235" src={Phone} />
-                    <SocialCard title="Mail" subtitle="sauloveigr@hotmail.com" src={Mail} />
+                    <SocialCard
+                        href="https://www.linkedin.com/in/sauloveigr/"
+                        title="Linkedin"
+                        subtitle="/sauloveigr"
+                        src={Linkedin}
+                    />
+                    <SocialCard
+                        href="https://github.com/sauloveigr"
+                        title="Github"
+                        subtitle="/sauloveigr"
+                        src={Github}
+                    />
+                    <SocialCard
+                        title="Contato"
+                        subtitle="(85) 9 9656-7235"
+                        src={Phone}
+                    />
+                    <SocialCard
+                        title="Mail"
+                        subtitle="sauloveigr@hotmail.com"
+                        src={Mail}
+                    />
                 </ContainerSocial>
             </ContainerAboutText>
         </>

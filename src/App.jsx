@@ -5,6 +5,7 @@ import TitleHeader from "./Components/TitleHeader.jsx";
 import NavBar from "./Components/NavBar.jsx";
 import NavLink from "./Components/NavLink.jsx";
 import About from "./Sections/About/About.jsx";
+import Projects from "./Sections/Projects/Projects.jsx";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
             </Header>
 
             <About/>
+            <Projects/>
         </>
     );
 }

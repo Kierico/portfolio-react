@@ -1,12 +1,5 @@
 import styled from "styled-components";
 
-const AboutTitle = styled.h1`
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--light-color);
-    margin-bottom: 1.875rem;
-`;
-
 export const ContainerAboutText = styled.div`
     max-width: 1440px;
     margin: 0 auto;
@@ -29,4 +22,3 @@ export const AboutText = styled.p`
     color: var(--first-grey);
 `;
 
-export default AboutTitle;

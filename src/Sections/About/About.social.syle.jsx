@@ -5,9 +5,11 @@ export const SocialCard = (props) => {
     return (
         <>
             <SocialDiv>
-                <CircleDiv>
-                    <CircleIcon src={props.src} />
-                </CircleDiv>
+                <SocialLink href={props.href} target="_blank">
+                    <CircleDiv>
+                        <CircleIcon src={props.src} />
+                    </CircleDiv>
+                </SocialLink>
                 <SocialTitle>{props.title}</SocialTitle>
                 <SocialSubtitle>{props.subtitle}</SocialSubtitle>
             </SocialDiv>
@@ -24,9 +26,24 @@ export const CircleDiv = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 1.1875rem;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: .3s ease-in-out;
+        /* border: 1px solid var(--first-color); */
+    }
 `;
 
 export const CircleIcon = styled.img.attrs((props) => ({ src: props.src }))``;
+
+export const SocialLink = styled.a`
+    width: 3.875rem;
+    height: 3.875rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 1.1875rem;
+`;
 
 export const ContainerSocial = styled.div`
     max-width: 1440px;
