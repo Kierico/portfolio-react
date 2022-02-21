@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Astronaut from "../../assets/images/astronaut.png";
 
 export const AboutSection = styled.section`
+    max-width: 1440px;
     width: 70vw;
     margin: 0 auto;
 `;

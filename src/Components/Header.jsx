@@ -5,9 +5,10 @@ const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1440px;
     width: 70vw;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 `;
 
 export default Header;

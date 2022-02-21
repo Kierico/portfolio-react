@@ -8,6 +8,7 @@ const AboutTitle = styled.h1`
 `;
 
 export const ContainerAboutText = styled.div`
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -16,9 +17,10 @@ export const ContainerAboutText = styled.div`
 `;
 
 export const AboutTextDiv = styled.div`
+    max-width: 780px;
     width: 46.5625rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 `;
 
 export const AboutText = styled.p`
@@ -26,7 +28,5 @@ export const AboutText = styled.p`
     font-weight: 400;
     color: var(--first-grey);
 `;
-
-
 
 export default AboutTitle;

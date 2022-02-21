@@ -20,14 +20,14 @@ import Phone from "../../assets/icons/phone.svg";
 import Mail from "../../assets/icons/mail.svg";
 import Linkedin from "../../assets/icons/linkedin.svg";
 import Github from "../../assets/icons/github.svg";
-import { Icon, SocialDiv } from "./About.social.syle";
+import { SocialCard, ContainerSocial } from "./About.social.syle";
 
 const About = () => {
     return (
         <>
             <AboutSection>
                 <TitleContainer />
-                <TextContainer></TextContainer>
+                <TextContainer/>
             </AboutSection>
         </>
     );
@@ -72,12 +72,12 @@ export const TextContainer = () => {
                         non proident
                     </AboutText>
                 </AboutTextDiv>
-                <SocialDiv>
-                    <Icon src={Mail} />
-                    <Icon src={Phone} />
-                    <Icon src={Linkedin} />
-                    <Icon src={Github} />
-                </SocialDiv>
+                <ContainerSocial>
+                    <SocialCard title="Linkedin" subtitle="/sauloveigr" src={Linkedin} />
+                    <SocialCard title="Github" subtitle="/sauloveigr" src={Github} />
+                    <SocialCard title="Contato" subtitle="(85) 9 9656-7235" src={Phone} />
+                    <SocialCard title="Mail" subtitle="sauloveigr@hotmail.com" src={Mail} />
+                </ContainerSocial>
             </ContainerAboutText>
         </>
     );
