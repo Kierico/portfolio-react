@@ -7,6 +7,7 @@ import NavLink from "./Components/NavLink.jsx";
 import About from "./Sections/About/About.jsx";
 import Projects from "./Sections/Projects/Projects.jsx";
 import Services from "./Sections/Services/Services.jsx";
+import Skills from "./Sections/Skills/Skills.jsx";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
             <About />
             <Projects />
             <Services />
+            <Skills />
         </>
     );
 }
