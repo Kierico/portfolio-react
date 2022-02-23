@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.js": "/portfolio-react/static/js/main.d4a7a651.js",
+    "main.js": "/portfolio-react/static/js/main.36be867d.js",
     "static/media/astronaut.png": "/portfolio-react/static/media/astronaut.d8c6a3823fde27af170f.png",
+    "static/media/react.svg": "/portfolio-react/static/media/react.b7b502647b428983b62517ac6bc67127.svg",
     "index.html": "/portfolio-react/index.html",
+    "static/media/js.svg": "/portfolio-react/static/media/js.e6e2c790ec1f2fd0b349b5c78dd501a7.svg",
+    "static/media/css.svg": "/portfolio-react/static/media/css.8efde094aa240db2fe48c8b98cfde50b.svg",
     "static/media/github.svg": "/portfolio-react/static/media/github.c928ea6e6a8c789671e5a69702d7d2b0.svg",
     "static/media/phone.svg": "/portfolio-react/static/media/phone.3992f08437eb59b4ff39c22835d749d3.svg",
+    "static/media/html.svg": "/portfolio-react/static/media/html.8dbe627bf14413285cbbdf9aa3117204.svg",
     "static/media/linkedin.svg": "/portfolio-react/static/media/linkedin.6b1a405fa86fd7c645a8d1967482164a.svg",
     "static/media/mail.svg": "/portfolio-react/static/media/mail.fdde3d7a595c3fe05a4b56335d1c3497.svg",
     "static/media/smartphone.svg": "/portfolio-react/static/media/smartphone.36af228d956057be23cc65f61fae1dca.svg",
     "static/media/code.svg": "/portfolio-react/static/media/code.fac09bee6c93eaa1dbf1ca61bfe45fac.svg",
-    "main.d4a7a651.js.map": "/portfolio-react/static/js/main.d4a7a651.js.map"
+    "main.36be867d.js.map": "/portfolio-react/static/js/main.36be867d.js.map"
   },
   "entrypoints": [
-    "static/js/main.d4a7a651.js"
+    "static/js/main.36be867d.js"
   ]
 }
