@@ -8,6 +8,7 @@ import About from "./Sections/About/About.jsx";
 import Projects from "./Sections/Projects/Projects.jsx";
 import Services from "./Sections/Services/Services.jsx";
 import Skills from "./Sections/Skills/Skills.jsx";
+import Footer from "./Sections/Footer/Footer.jsx";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
             <Projects />
             <Services />
             <Skills />
+            <Footer />
         </>
     );
 }
