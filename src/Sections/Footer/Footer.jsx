@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <FooterComponent>
-                <FooterText>Design: <TextSpan>Iuri Silva</TextSpan></FooterText>
+                <FooterText>Desenvolvedor: <TextSpan>Saulo Veiga</TextSpan> - Designer: <TextSpan>Iuri Silva</TextSpan></FooterText>
             </FooterComponent>
         </>
     )
