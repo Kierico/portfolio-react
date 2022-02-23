@@ -17,6 +17,7 @@ export const WrapperCard = styled.div`
     background-color: var(--fourth-grey);
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    border: 1px solid #333333;
 
     &:hover {
         box-shadow: 0px 0px 0px 2px var(--first-color);
