@@ -5,6 +5,7 @@ export const ProjectSection = styled.section`
     width: 70vw;
     margin: 0 auto;
     margin-top: 7.9375rem;
+    margin-bottom: 7.9375rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +15,13 @@ export const ProjectSection = styled.section`
 export const WrapperCard = styled.div`
     padding: 1.25rem 1.5625rem;
     background-color: var(--fourth-grey);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0px 0px 0px 2px var(--first-color);
+        transition: 0.3s ease-in-out;
+    }
 `;
 
 export const CardDiv = styled.div`
@@ -28,7 +36,6 @@ export const ProjectCardTitle = styled.h2`
     font-weight: 500;
     margin-bottom: 0.375rem;
     margin-top: 1.4375rem;
-
 `;
 
 export const ProjectCardSubtitle = styled.p`

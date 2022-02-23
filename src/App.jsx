@@ -13,17 +13,17 @@ function App() {
             <GlobalStyle />
 
             <Header>
-              <TitleHeader>Portfólio</TitleHeader>
-              <NavBar>
-                <NavLink>Sobre mim</NavLink>
-                <NavLink>Projetos</NavLink>
-                <NavLink>Serviços</NavLink>
-                <NavLink>Minhas skills</NavLink>
-              </NavBar>
+                <TitleHeader>Portfólio</TitleHeader>
+                <NavBar>
+                    <NavLink>Sobre mim</NavLink>
+                    <NavLink>Projetos</NavLink>
+                    <NavLink>Serviços</NavLink>
+                    <NavLink>Minhas skills</NavLink>
+                </NavBar>
             </Header>
 
-            <About/>
-            <Projects/>
+            <About />
+            <Projects />
         </>
     );
 }

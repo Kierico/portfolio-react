@@ -26,12 +26,12 @@ export const CircleDiv = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 1.1875rem;
-    transition: .3s ease-in-out;
+    transition: 0.25s ease-in-out;
 
     &:hover {
         transform: scale(1.1);
-        transition: .3s ease-in-out;
-        /* border: 1px solid var(--first-color); */
+        transition: 0.25s ease-in-out;
+        box-shadow: 0px 0px 0px 2px var(--first-color);
     }
 `;
 
