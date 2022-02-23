@@ -1,6 +1,7 @@
 import React from "react";
 import ColorButton from "../../Components/ColorButton";
 import BlackButton from "../../Components/BlackButton.jsx";
+import Pdf from "../../assets/CV.pdf"
 import HomeTitle, {
     AboutContainer,
     AboutImage,
@@ -10,7 +11,7 @@ import HomeTitle, {
     WrapperButton,
     WrapperTitle,
 } from "./About.style.jsx";
-import AboutTitle, {
+import {
     AboutText,
     AboutTextDiv,
     ContainerAboutText,
@@ -46,7 +47,7 @@ export const TitleContainer = () => {
                     </TitleDiv>
                     <HomeText>Desenvolvedor Front-End</HomeText>
                     <WrapperButton>
-                        <ColorButton>Download CV</ColorButton>
+                        <ColorButton href="https://github.com/sauloveigr/curriculum/blob/main/Curr%C3%ADculo%20-%20Saulo%20Veiga.pdf">Download CV</ColorButton>
                         <BlackButton>Entrar em contato</BlackButton>
                     </WrapperButton>
                 </WrapperTitle>
@@ -63,14 +64,13 @@ export const TextContainer = () => {
                 <SectionTitle>Sobre mim</SectionTitle>
                 <AboutTextDiv>
                     <AboutText>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident
+                        Sou Saulo, tenho 24 anos. Estudante de front-end.
+                        Apaixonado por tecnologia e programação. Tento estudar
+                        todos os dias desde que conheci esse ramo que me dá
+                        tanto prazer. Estou disposto a aprender tudo o que for
+                        preciso para evoluir como profissional e ao mesmo tempo,
+                        oferecer meu esforço e dedicação à empresa que irei
+                        atuar.
                     </AboutText>
                 </AboutTextDiv>
                 <ContainerSocial>
