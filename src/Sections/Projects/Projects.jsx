@@ -23,17 +23,6 @@ const Projects = () => {
                 <ContainerCards>
                     <LinkCard
                         target="_blank"
-                        href="https://sauloveigr.github.io/studio-ghibli-react/"
-                    >
-                        <ProjectCard
-                            title="Studio Ghibli"
-                            fontSize="0.875rem"
-                            subtitle="React JS e styled-components"
-                            src={Project4}
-                        />
-                    </LinkCard>
-                    <LinkCard
-                        target="_blank"
                         href="https://sauloveigr.github.io/landing-page-react"
                     >
                         <ProjectCard
@@ -41,6 +30,17 @@ const Projects = () => {
                             title="Figma Land"
                             subtitle="React JS, styled-components e react-router-dom"
                             src={Project1}
+                        />
+                    </LinkCard>
+                    <LinkCard
+                        target="_blank"
+                        href="https://sauloveigr.github.io/studio-ghibli-react/"
+                    >
+                        <ProjectCard
+                            title="Studio Ghibli"
+                            fontSize="0.875rem"
+                            subtitle="React JS e styled-components"
+                            src={Project4}
                         />
                     </LinkCard>
                     <LinkCard
