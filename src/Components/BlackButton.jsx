@@ -8,6 +8,12 @@ const ColorButton = styled.button`
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0px 0px 0px 2px var(--first-color);
+        transition: 0.3s ease-in-out;
+    }
 `;
 
 export default ColorButton;
