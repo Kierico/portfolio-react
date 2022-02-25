@@ -14,7 +14,7 @@ import SmartPhone from "../../assets/icons/smartphone.svg";
 const Services = () => {
     return (
         <>
-            <ServiceSection>
+            <ServiceSection id="services">
                 <SectionTitle>Serviços</SectionTitle>
                 <WrapperServiceCards>
                     <ServiceCard width="7.875rem" src={Code} title="Criação de sites" />

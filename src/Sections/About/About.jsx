@@ -1,7 +1,6 @@
 import React from "react";
 import ColorButton from "../../Components/ColorButton";
 import BlackButton from "../../Components/BlackButton.jsx";
-import Pdf from "../../assets/CV.pdf"
 import HomeTitle, {
     AboutContainer,
     AboutImage,
@@ -47,7 +46,12 @@ export const TitleContainer = () => {
                     </TitleDiv>
                     <HomeText>Desenvolvedor Front-End</HomeText>
                     <WrapperButton>
-                        <ColorButton href="https://github.com/sauloveigr/curriculum/blob/main/Curr%C3%ADculo%20-%20Saulo%20Veiga.pdf">Download CV</ColorButton>
+                        <ColorButton
+                            target="_blank"
+                            href="https://github.com/sauloveigr/curriculum/blob/main/Curr%C3%ADculo%20-%20Saulo%20Veiga.pdf"
+                        >
+                            Download CV
+                        </ColorButton>
                         <BlackButton>Entrar em contato</BlackButton>
                     </WrapperButton>
                 </WrapperTitle>

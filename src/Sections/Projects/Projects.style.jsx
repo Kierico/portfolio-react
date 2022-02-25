@@ -29,6 +29,9 @@ export const CardDiv = styled.div`
     width: 18.75rem;
     height: 8.125rem;
     background-color: var(--third-grey);
+    background-image: url(${(props) => props.src}); 
+    background-size: cover;
+
 `;
 
 export const ProjectCardTitle = styled.h2`
@@ -40,7 +43,7 @@ export const ProjectCardTitle = styled.h2`
 `;
 
 export const ProjectCardSubtitle = styled.p`
-    font-size: 0.875rem;
+    font-size: ${(props) => props.fontSize};
     color: var(--first-grey);
     font-weight: 400;
 `;
@@ -48,7 +51,11 @@ export const ProjectCardSubtitle = styled.p`
 export const ContainerCards = styled.div`
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     column-gap: 2.8125rem;
+`;
+
+export const LinkCard = styled.a`
+    text-decoration: none;
 `;
