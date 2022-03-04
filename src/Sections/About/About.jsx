@@ -26,7 +26,7 @@ import SectionTitle from "../../Components/SectionTitle";
 const About = () => {
     return (
         <>
-            <AboutSection>
+            <AboutSection id="about">
                 <TitleContainer />
                 <TextContainer />
             </AboutSection>

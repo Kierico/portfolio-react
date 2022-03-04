@@ -11,6 +11,7 @@ const ColorButton = styled.button`
     transition: 0.3s ease-in-out;
 
     &:hover {
+        border: 1px solid transparent;
         box-shadow: 0px 0px 0px 2px var(--first-color);
         transition: 0.3s ease-in-out;
     }

@@ -41,6 +41,7 @@ export const WrapperButton = styled.div`
 export const AboutImage = styled.img.attrs({ src: Astronaut })`
     width: 25rem;
     animation: top-to-bottom 3s ease-in-out forwards infinite alternate;
+    z-index: -1;
 
     @keyframes top-to-bottom {
         0% {

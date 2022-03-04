@@ -18,7 +18,7 @@ import Project4 from "../../assets/images/site-4.png";
 const Projects = () => {
     return (
         <>
-            <ProjectSection>
+            <ProjectSection id="projects">
                 <SectionTitle>Projetos</SectionTitle>
                 <ContainerCards>
                     <LinkCard

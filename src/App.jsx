@@ -10,6 +10,8 @@ import Services from "./Sections/Services/Services.jsx";
 import Skills from "./Sections/Skills/Skills.jsx";
 import Footer from "./Sections/Footer/Footer.jsx";
 
+import { Link } from "react-scroll";
+
 function App() {
     return (
         <>
@@ -18,10 +20,44 @@ function App() {
             <Header>
                 <TitleHeader>Portfólio</TitleHeader>
                 <NavBar>
-                    <NavLink>Sobre mim</NavLink>
-                    <NavLink>Projetos</NavLink>
-                    <NavLink>Serviços</NavLink>
-                    <NavLink>Minhas skills</NavLink>
+                    <Link
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={200}
+                        duration={500}
+                    >
+                        <NavLink>Sobre mim</NavLink>
+                    </Link>
+                    <Link
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                    >
+                        <NavLink>Projetos</NavLink>
+                    </Link>
+
+                    <Link
+                        to="services"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                        <NavLink>Serviços</NavLink>
+                    </Link>
+
+                    <Link
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                        <NavLink>Minhas skills</NavLink>
+                    </Link>
                 </NavBar>
             </Header>
 

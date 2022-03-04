@@ -10,7 +10,7 @@ import ReactImg from "../../assets/icons/skills/react.svg"
 const Skills = () => {
     return (
         <>
-            <SkillSection>
+            <SkillSection id="skills">
                 <SectionTitle>Minhas skills</SectionTitle>
                 <WrapperSkillCard>
                     <SkillCard src={HTML}/>
