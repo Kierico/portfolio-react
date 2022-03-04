@@ -24,7 +24,16 @@ function App() {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={200}
+                        offset={-300}
+                        duration={500}
+                    >
+                        <NavLink>Início</NavLink>
+                    </Link>
+                    <Link
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={300}
                         duration={500}
                     >
                         <NavLink>Sobre mim</NavLink>
@@ -33,7 +42,7 @@ function App() {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-110}
                         duration={500}
                     >
                         <NavLink>Projetos</NavLink>

@@ -9,6 +9,9 @@ const Header = styled.header.attrs({className: 'header'})`
     width: 70vw;
     margin: 0 auto;
     margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--third-grey);
 `;
 
 export default Header;
