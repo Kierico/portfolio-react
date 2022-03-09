@@ -7,7 +7,9 @@ import {
     ProjectCardSubtitle,
     ProjectCardTitle,
     ProjectSection,
+    TitleVersion,
     WrapperCard,
+    WrapperTitle,
 } from "./Projects.style";
 
 import Project1 from "../../assets/images/site-1.png";
@@ -30,6 +32,19 @@ const Projects = () => {
                             title="Figma Land"
                             subtitle="React JS, styled-components e react-router-dom"
                             src={Project1}
+                            version="(Desktop)"
+                        />
+                    </LinkCard>
+                    <LinkCard
+                        target="_blank"
+                        href="https://sauloveigr.github.io/rocket-coffee-react/"
+                    >
+                        <ProjectCard
+                            fontSize="0.875rem"
+                            title="Rocket Coffee"
+                            subtitle="React JS e styled-components"
+                            src={Project3}
+                            version="(Responsivo)"
                         />
                     </LinkCard>
                     <LinkCard
@@ -41,6 +56,7 @@ const Projects = () => {
                             fontSize="0.875rem"
                             subtitle="React JS e styled-components"
                             src={Project4}
+                            version="(Responsivo)"
                         />
                     </LinkCard>
                     <LinkCard
@@ -52,17 +68,7 @@ const Projects = () => {
                             title="Rachi"
                             subtitle="React JS e styled-components"
                             src={Project2}
-                        />
-                    </LinkCard>
-                    <LinkCard
-                        target="_blank"
-                        href="https://sauloveigr.github.io/nlw-origin/"
-                    >
-                        <ProjectCard
-                            fontSize="0.875rem"
-                            title="Beauty Salon"
-                            subtitle="HTML, CSS e JavaScript"
-                            src={Project3}
+                            version="(Desktop)"
                         />
                     </LinkCard>
                 </ContainerCards>
@@ -73,14 +79,17 @@ const Projects = () => {
 
 export default Projects;
 
-export const ProjectCard = (props) => {
+export const ProjectCard = ({ src, title, subtitle, fontSize, version }) => {
     return (
         <>
             <WrapperCard>
-                <CardDiv src={props.src} />
-                <ProjectCardTitle>{props.title}</ProjectCardTitle>
-                <ProjectCardSubtitle fontSize={props.fontSize}>
-                    {props.subtitle}
+                <CardDiv src={src} />
+                <WrapperTitle>
+                    <ProjectCardTitle>{title}</ProjectCardTitle>
+                    <TitleVersion>{version}</TitleVersion>
+                </WrapperTitle>
+                <ProjectCardSubtitle fontSize={fontSize}>
+                    {subtitle}
                 </ProjectCardSubtitle>
             </WrapperCard>
         </>

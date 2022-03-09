@@ -17,8 +17,16 @@ const Services = () => {
             <ServiceSection id="services">
                 <SectionTitle>Serviços</SectionTitle>
                 <WrapperServiceCards>
-                    <ServiceCard width="7.875rem" src={Code} title="Criação de sites" />
-                    <ServiceCard width="11.375rem" src={SmartPhone} title="Sites responsivos" />
+                    <ServiceCard
+                        width="7.875rem"
+                        src={Code}
+                        title="Criação de sites"
+                    />
+                    <ServiceCard
+                        width="11.375rem"
+                        src={SmartPhone}
+                        title="Sites responsivos"
+                    />
                 </WrapperServiceCards>
             </ServiceSection>
         </>
