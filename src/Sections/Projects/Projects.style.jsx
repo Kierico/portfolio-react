@@ -48,7 +48,7 @@ export const ProjectCardSubtitle = styled.p`
 export const ContainerCards = styled.div`
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 2rem;
     column-gap: 2.8125rem;
 `;
