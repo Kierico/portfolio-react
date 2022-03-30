@@ -9,3 +9,4 @@ This project was made using the following technologies:
 - React JS
 - styled-components
 - react-scroll
+- gh-pages
